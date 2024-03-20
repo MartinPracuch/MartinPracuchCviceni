@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
 @Service
 public class ProjectService {
     private final String gitLabApiUrl = "https://gitlab.com/api/v4/projects";
-    private final String accessToken ="glpat-NPiDYzBhBbo3J-zjxWyA";
+    private final String accessToken ="INSERT_YOUR_ACCES_TOKEN_HERE"; //insert your access token here
 
     private final RestTemplate restTemplate;
     private final ObjectMapper objectMapper;
